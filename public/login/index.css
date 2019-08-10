@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  background-image: linear-gradient(to top right, #0f0, #00f);
+}
+
+.btn {
+
+  width: 80%;
+  height: 35vh;
+  margin-left: 10%;
+  margin-top: 10vh;
+  background-image: linear-gradient(to top right, #00f, #000);
+  border: none;
+
+  color: #fff;
+  font-size: 18vw;
+  font-weight: 700;
+  box-shadow: 0 1.5vh 0 rgba(0, 0, 0, .75);
+
+  transform: rotateX(25deg);
+  text-transform: uppercase;
+
+}
+
+.btn:hover {
+  position: relative;
+  top: 1.5vh;
+  box-shadow: none;
+}

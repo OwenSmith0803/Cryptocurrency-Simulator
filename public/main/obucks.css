@@ -1,0 +1,54 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#content {
+  width: 100%;
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), linear-gradient(to right, #0f0, #ff0, #f00);
+}
+
+.btn {
+
+  width: 40%;
+  height: 12vw;
+  margin-left: calc(20% / 3);
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  border: none;
+
+  color: #fff;
+  font-size: 5.5vw;
+  font-weight: 700;
+  box-shadow: 0 1.5vh 0 rgba(0, 0, 0, .75);
+
+  transform: rotateX(25deg);
+  text-transform: uppercase;
+
+}
+
+#buy {
+  background-image: linear-gradient(to top right, #0f0, #000);
+}
+
+#sell {
+  background-image: linear-gradient(to top right, #f00, #000);
+}
+
+.btn:hover {
+  position: relative;
+  top: 1.5vh;
+  box-shadow: none;
+}
+
+.obucks_input {
+
+  width: 40%;
+  height: 8vw;
+  margin-left: calc(20% / 3);
+
+  font-size: 5.5vw;
+  text-align: center;
+
+}

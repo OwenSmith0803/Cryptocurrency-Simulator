@@ -1,0 +1,18 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>OBucks - Main</title>
+    <script src="../libraries/p5.js"></script>
+    <script src="obucks.js"></script>
+    <link href="obucks.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="sketch-holder"></div>
+    <div id="content">
+      <button onclick="buy()" class="btn" id="buy">Buy Obucks</button>
+      <button onclick="sell()" class="btn" id="sell">Sell Obucks</button>
+      <input type="number" placeholder="OBucks Amount" min="0" max="100" class="obucks_input" change="buy_change()" id="buy_input"></input>
+      <input type="number" placeholder="OBucks Amount" min="0" max="100" class="obucks_input" change="sell_change()" id="sell_input"></input>
+    </div>
+  </body>
+</html>
