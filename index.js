@@ -3,7 +3,8 @@ const Datastore = require('nedb');
 require('dotenv').config();
 
 const app = express();
-app.listen(8000, () => console.log('listening at 8000'));
+const port = process.env.PORT || 8000;
+app.listen(port, () => console.log(`Starting server at port ${port}!`));
 app.use(express.static('public'));
 app.use(express.json({limit: '1mb'}));
 
