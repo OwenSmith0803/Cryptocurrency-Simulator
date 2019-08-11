@@ -13,8 +13,10 @@ html, body {
   border: none;
 
   color: #fff;
-  font-size: 18vw;
+  font-size: 17.5vw;
   font-weight: 700;
+  /*text-align: center;
+  vertical-align: middle;*/
   box-shadow: 0 1.5vh 0 rgba(0, 0, 0, .75);
 
   transform: rotateX(25deg);
